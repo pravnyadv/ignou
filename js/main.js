@@ -23,7 +23,7 @@ window.onload = () => {
 			"Statistical Techniques LAB"
 		],
 		BCSL058: [
-			"Computer Oriented Numerical Techniques Lab"
+			"Computer Oriented Numerical Techniques LAB"
 		],
 		ECO02: [
 			"Accountancy"
