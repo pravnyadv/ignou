@@ -51,7 +51,11 @@ window.onload = () => {
 	var html = '';
 	for(const key in subjects) {
 		html+= '<tr>'
-		html+= `<td><a href="papers/${key}/index.html">${key}</a></td>`;
+		if(key != 'BCSL044' || key != 'BCSL058') {
+			html+= `<td><a href="papers/${key}/index.html">${key}</a></td>`;
+		} else {
+			html+= `<td>${key}</td>`;
+		}
 		html+= '<td>'+subjects[key][0]+'</td>';
 		html+= '</tr>';
 	}
