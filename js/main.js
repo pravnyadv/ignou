@@ -51,7 +51,7 @@ window.onload = () => {
 	var html = '';
 	for(const key in subjects) {
 		html+= '<tr>'
-		html+= '<td>'+key+'</td>';
+		html+= `<td><a href="papers/${key}">${key}</a></td>`;
 		html+= '<td>'+subjects[key][0]+'</td>';
 		html+= '</tr>';
 	}
